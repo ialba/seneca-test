@@ -1,0 +1,22 @@
+.Answer{
+  height: 45px;
+  border-radius: 100px;
+  border: solid 1px #fbfbfb;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.Answer1, .Answer2{
+  width: 50%;
+  height: 45px;
+  float: left;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.Selected{
+  border-radius: 100px;
+  background-color: rgba(249, 249, 249, 0.5);
+  box-shadow: 0 0 6px 1px rgba(0, 115, 101, 0.5);
+}
